@@ -1,0 +1,192 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/WeatherApp.API.csproj": {}
+  },
+  "projects": {
+    "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/WeatherApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/WeatherApp.API.csproj",
+        "projectName": "WeatherApp.API",
+        "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/WeatherApp.API.csproj",
+        "packagesPath": "/Users/renew/.nuget/packages/",
+        "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/renew/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj": {
+                "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "OpenWeatherMap": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "Polly.Contrib.Simmy": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj",
+        "projectName": "WeatherApp.Client.Common",
+        "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj",
+        "packagesPath": "/Users/renew/.nuget/packages/",
+        "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/renew/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj": {
+                "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj",
+        "projectName": "WeatherApp.Common",
+        "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj",
+        "packagesPath": "/Users/renew/.nuget/packages/",
+        "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/renew/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

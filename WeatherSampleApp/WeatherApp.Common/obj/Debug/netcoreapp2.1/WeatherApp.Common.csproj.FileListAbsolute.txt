@@ -1,0 +1,8 @@
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/bin/Debug/netcoreapp2.1/WeatherApp.Common.deps.json
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/bin/Debug/netcoreapp2.1/WeatherApp.Common.dll
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/bin/Debug/netcoreapp2.1/WeatherApp.Common.pdb
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/obj/Debug/netcoreapp2.1/WeatherApp.Common.csproj.CoreCompileInputs.cache
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/obj/Debug/netcoreapp2.1/WeatherApp.Common.AssemblyInfoInputs.cache
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/obj/Debug/netcoreapp2.1/WeatherApp.Common.AssemblyInfo.cs
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/obj/Debug/netcoreapp2.1/WeatherApp.Common.dll
+/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/obj/Debug/netcoreapp2.1/WeatherApp.Common.pdb

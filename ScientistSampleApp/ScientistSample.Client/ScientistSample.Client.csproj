@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Scientist" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScientistSample.ComplicatedCalculation\ScientistSample.ComplicatedCalculation.csproj" />
+    <ProjectReference Include="..\ScientistSample.ComplicatedCalculation.v2\ScientistSample.ComplicatedCalculation.v2.csproj" />
+  </ItemGroup>
+</Project>
