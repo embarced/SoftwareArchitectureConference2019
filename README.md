@@ -1,5 +1,5 @@
 # Software Architecture Conference (Berlin)
-Samples of my session “Evolutionary architektures and Fitness Functions” on the O’Reilly Software Architecture Conference  (Berlin)
+Samples of my session “Evolutionary architectures and Fitness Functions” on the O’Reilly Software Architecture Conference 2019 (Berlin)
 
 - **ScientistSampleApp:** Sample showing A/B testing at code level utilizing GitHub Scientist framework (.NET port)
 - **WeatherSampleApp:** Sample showing (Mini-) Chaos Engineering between 2 services using Polly as resilience framework and Simmy to introduce a little chaos.
