@@ -2,7 +2,6 @@
 {
     public enum WeatherRepresentationKind
     {
-        ASCII,
-        JPG
+        ASCII
     }
 }

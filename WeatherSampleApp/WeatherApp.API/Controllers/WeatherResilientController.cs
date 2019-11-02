@@ -13,6 +13,7 @@ using Polly.Contrib.Simmy;
 using Polly.Contrib.Simmy.Fault;
 using Polly.Contrib.Simmy.Latency;
 using Polly.Timeout;
+using WeatherApp.API.BusinessLogic;
 
 namespace WeatherApp.API.Controllers
 {
@@ -67,20 +68,11 @@ namespace WeatherApp.API.Controllers
 
             var result = policyWrap.ExecuteAsync(async ()
                 => await openWeatherClient.CurrentWeather.GetByName(city, OpenWeatherMap.MetricSystem.Metric)).Result;
-            var weather = GetWeatherFromResponse(result);
+            var weather = WeatherConverter.GetWeatherFromResponse(result);
 
             return weather;
         }
 
-        private Weather GetWeatherFromResponse(OpenWeatherMap.CurrentWeatherResponse currentWeather)
-        {
-            return new Weather()
-            {
-                City = currentWeather.City.Name,
-                Temperature = new Temperature(currentWeather.Temperature.Value),
-                Value = currentWeather.Weather.Value
-            };
-        }
 
         private Task<OpenWeatherMap.CurrentWeatherResponse> DoFallbackAction(CancellationToken ct, string city)
         {

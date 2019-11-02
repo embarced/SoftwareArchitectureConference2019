@@ -769,11 +769,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Console/WeatherApp.Client.Console.csproj",
+      "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Console/WeatherApp.Client.Console.csproj",
       "projectName": "WeatherApp.Client.Console",
-      "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Console/WeatherApp.Client.Console.csproj",
+      "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Console/WeatherApp.Client.Console.csproj",
       "packagesPath": "/Users/renew/.nuget/packages/",
-      "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Console/obj/",
+      "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Console/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -790,11 +790,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj": {
-              "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj"
+            "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj": {
+              "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj"
             },
-            "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj": {
-              "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj"
+            "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Common/WeatherApp.Common.csproj": {
+              "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Common/WeatherApp.Common.csproj"
             }
           }
         }
@@ -809,16 +809,23 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

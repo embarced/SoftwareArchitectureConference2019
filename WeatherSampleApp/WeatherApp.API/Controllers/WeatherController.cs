@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using WeatherApp.Common;
 using Microsoft.AspNetCore.Mvc;
+using WeatherApp.API.BusinessLogic;
 
 namespace WeatherApp.API.Controllers
 {
@@ -9,7 +10,7 @@ namespace WeatherApp.API.Controllers
     [ApiController]
     public class WeatherController : ControllerBase
     {
-        private static string apiKey = "197da5e10fb1ebbb22f1959434f629b8";
+        private static string apiKey = "ab8a963e9c07fabcb94c3b999c26d9aa";
 
         private OpenWeatherMap.OpenWeatherMapClient openWeatherClient = new OpenWeatherMap.OpenWeatherMapClient(apiKey);
 
@@ -27,19 +28,11 @@ namespace WeatherApp.API.Controllers
             Console.WriteLine("Call Get; city:" + city);
 
             var response = openWeatherClient.CurrentWeather.GetByName(city, OpenWeatherMap.MetricSystem.Metric).Result;
-            var weather = GetWeatherFromResponse(response);
+            var weather = WeatherConverter.GetWeatherFromResponse(response);
 
             return weather;
         }
 
-        private Weather GetWeatherFromResponse(OpenWeatherMap.CurrentWeatherResponse currentWeather)
-        {
-            return new Weather()
-            {
-                City = currentWeather.City.Name,
-                Temperature = new Temperature(currentWeather.Temperature.Value),
-                Value = currentWeather.Weather.Value
-            };
-        }
+
     }
 }

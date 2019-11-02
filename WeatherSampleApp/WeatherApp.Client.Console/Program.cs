@@ -17,7 +17,9 @@ namespace WeatherApp.Client.Console
             { 
                 using (WeatherClient client = new WeatherClient(uri))
                 {
-                    System.Console.WriteLine(client.GetWeatherAsync(inputCity).Result);
+                    var weatherResultTask = client.GetWeatherAsync(inputCity);
+                    var weather = weatherResultTask.Result;
+                    System.Console.WriteLine(weather);
 
                     // use resilient version of API
                     //System.Console.WriteLine(client.GetWeatherResilientAsync(inputCity).Result);

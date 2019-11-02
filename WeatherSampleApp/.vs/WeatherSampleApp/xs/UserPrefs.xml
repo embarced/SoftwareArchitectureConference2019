@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{0EAFF2E7-7A2E-456F-AFD0-AE9DE2829739}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp.Common/ASCIIWeatherRepresentation.cs">
+    <Files>
+      <File FileName="WeatherApp.API/Controllers/WeatherController.cs" Line="19" Column="47" />
+      <File FileName="WeatherApp.API/Controllers/WeatherResilientController.cs" />
+      <File FileName="WeatherApp.Common/Weather.cs" Line="19" Column="130" />
+      <File FileName="WeatherApp.API/BusinessLogic/WeatherConverter.cs" Line="18" Column="95" />
+      <File FileName="WeatherApp.Common/ASCIIWeatherRepresentation.cs" Line="12" Column="1" />
+      <File FileName="WeatherApp.API/BusinessLogic/ASCIIWeatherMap.cs" Line="16" Column="9" />
+      <File FileName="WeatherApp.API/Program.cs" Line="1" Column="1" />
+      <File FileName="WeatherApp.API.Test/UnitTest1.cs" Line="19" Column="1" />
+      <File FileName="WeatherApp.Client.Console/Program.cs" Line="20" Column="61" />
+      <File FileName="WeatherApp.Client.Common/WeatherClient.cs" Line="45" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeatherSampleApp" expanded="True">
+            <Node name="WeatherApp.API" expanded="True">
+              <Node name="Dependencies" expanded="True" selected="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="BusinessLogic" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="WeatherApp.API.Test" expanded="True" />
+            <Node name="WeatherApp.Client.Common" expanded="True" />
+            <Node name="WeatherApp.Client.Console" expanded="True" />
+            <Node name="WeatherApp.Client.Test" expanded="True" />
+            <Node name="WeatherApp.Common" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="WeatherSampleApp" expanded="True">
+            <Node name="WeatherApp.API.Test" expanded="True">
+              <Node name="WeatherApp" expanded="True">
+                <Node name="API" expanded="True">
+                  <Node name="Test" expanded="True">
+                    <Node name="TestASCIIWeatherMap" expanded="True">
+                      <Node name="TestPrintWeatherASCII" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.API.Test/TestASCIIWeatherMap.cs" relfile="WeatherApp.API.Test/TestASCIIWeatherMap.cs" line="19" column="34" />
+      <Breakpoint file="/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Common/WeatherClient.cs" relfile="WeatherApp.Client.Common/WeatherClient.cs" line="43" column="41" />
+      <Breakpoint file="/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Common/WeatherClient.cs" relfile="WeatherApp.Client.Common/WeatherClient.cs" line="47" column="45" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

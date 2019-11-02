@@ -11921,11 +11921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/WeatherApp.API.csproj",
+      "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.API/WeatherApp.API.csproj",
       "projectName": "WeatherApp.API",
-      "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/WeatherApp.API.csproj",
+      "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.API/WeatherApp.API.csproj",
       "packagesPath": "/Users/renew/.nuget/packages/",
-      "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.API/obj/",
+      "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.API/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -11942,8 +11942,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj": {
-              "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj"
+            "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj": {
+              "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Client.Common/WeatherApp.Client.Common.csproj"
             }
           }
         }
@@ -11969,6 +11969,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -11987,10 +11988,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

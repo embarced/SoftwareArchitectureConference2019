@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj": {}
+    "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Common/WeatherApp.Common.csproj": {}
   },
   "projects": {
-    "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj": {
+    "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Common/WeatherApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj",
+        "projectUniqueName": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Common/WeatherApp.Common.csproj",
         "projectName": "WeatherApp.Common",
-        "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/WeatherApp.Common.csproj",
+        "projectPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Common/WeatherApp.Common.csproj",
         "packagesPath": "/Users/renew/.nuget/packages/",
-        "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/Basta2019_Weather/WeatherApp.Common/obj/",
+        "outputPath": "/Users/renew/Projects/SoftwareArchitectureConference2019/WeatherSampleApp/WeatherApp.Common/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -47,10 +47,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
