@@ -21,8 +21,8 @@ namespace ScientistSample.Client
 
                 Console.WriteLine($"Random num is: {randomInput}");
 
-                //int result = GetResult(randomInput);
-                int result = GetResultWithScientist(randomInput);
+                int result = GetResult(randomInput);
+                //int result = GetResultWithScientist(randomInput);
 
                 Console.WriteLine($"Result: {result}");
                 Console.WriteLine();

@@ -22,7 +22,7 @@ namespace Basta2019_Weather.Client.Test
         [TestCleanup]
         public void Teardown()
         {
-            // Disable Polly on target test environment by writing test-file
+            // Disable Polly on target test environment by deleting test-file
             File.Delete(Path.Combine(filePathToChaosSettings, SharedData.ChaosEnabledFileName));
         }
 

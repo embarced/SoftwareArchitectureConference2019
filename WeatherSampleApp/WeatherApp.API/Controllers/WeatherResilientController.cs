@@ -21,7 +21,7 @@ namespace WeatherApp.API.Controllers
     [ApiController]
     public class WeatherResilientController : ControllerBase
     {
-        private static string apiKey = "197da5e10fb1ebbb22f1959434f629b8";
+        private static string apiKey = "ab8a963e9c07fabcb94c3b999c26d9aa";
 
         private OpenWeatherMap.OpenWeatherMapClient openWeatherClient = new OpenWeatherMap.OpenWeatherMapClient(apiKey);
 

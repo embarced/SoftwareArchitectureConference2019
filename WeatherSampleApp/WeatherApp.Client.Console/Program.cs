@@ -18,11 +18,10 @@ namespace WeatherApp.Client.Console
                 using (WeatherClient client = new WeatherClient(uri))
                 {
                     var weatherResultTask = client.GetWeatherAsync(inputCity);
+                    // use resilient version of API
+                    //var weatherResultTask = client.GetWeatherResilientAsync(inputCity);
                     var weather = weatherResultTask.Result;
                     System.Console.WriteLine(weather);
-
-                    // use resilient version of API
-                    //System.Console.WriteLine(client.GetWeatherResilientAsync(inputCity).Result);
                 }
             }
         }
